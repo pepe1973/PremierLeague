@@ -1,0 +1,20 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "Egy oldal a 2023/2024-es Premier League-ről",
+    "main": "server.js",
+    "scripts": {
+        "dev": "nodemon server.js",
+        "start": "node server.js"
+    },
+    "keywords": [],
+    "author": "Bodrogi Péter Róbert",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    }
+}
